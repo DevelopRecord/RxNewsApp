@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		FB8B923A2806B136009ED9B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B92392806B136009ED9B2 /* AppDelegate.swift */; };
 		FB8B923C2806B136009ED9B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B923B2806B136009ED9B2 /* SceneDelegate.swift */; };
-		FB8B923E2806B136009ED9B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B923D2806B136009ED9B2 /* ViewController.swift */; };
 		FB8B92412806B136009ED9B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8B923F2806B136009ED9B2 /* Main.storyboard */; };
 		FB8B92432806B138009ED9B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8B92422806B138009ED9B2 /* Assets.xcassets */; };
 		FB8B92462806B138009ED9B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8B92442806B138009ED9B2 /* LaunchScreen.storyboard */; };
+		FB8B924F2806B180009ED9B2 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B924E2806B180009ED9B2 /* MainController.swift */; };
+		FB8B92522806B2DA009ED9B2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FB8B92512806B2DA009ED9B2 /* Kingfisher */; };
+		FB8B92552806B317009ED9B2 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FB8B92542806B317009ED9B2 /* RxCocoa */; };
+		FB8B92572806B317009ED9B2 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FB8B92562806B317009ED9B2 /* RxRelay */; };
+		FB8B92592806B317009ED9B2 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB8B92582806B317009ED9B2 /* RxSwift */; };
+		FB8B925C2806B331009ED9B2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FB8B925B2806B331009ED9B2 /* Alamofire */; };
+		FB8B925F2806B3EF009ED9B2 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B925E2806B3EF009ED9B2 /* Article.swift */; };
+		FB8B92622806B52B009ED9B2 /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B92612806B52B009ED9B2 /* ArticleService.swift */; };
+		FB8B92652806BEFA009ED9B2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B92642806BEFA009ED9B2 /* MainViewModel.swift */; };
+		FB8B92672806C523009ED9B2 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B92662806C523009ED9B2 /* ArticleViewModel.swift */; };
+		FB8B926A2806C9E3009ED9B2 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B92692806C9E3009ED9B2 /* MainCell.swift */; };
+		FB8B926D2806CD4D009ED9B2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB8B926C2806CD4D009ED9B2 /* SnapKit */; };
+		FB8B92702806CD64009ED9B2 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = FB8B926F2806CD64009ED9B2 /* Then */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB8B92362806B136009ED9B2 /* RxNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8B92392806B136009ED9B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB8B923B2806B136009ED9B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB8B923D2806B136009ED9B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB8B92402806B136009ED9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB8B92422806B138009ED9B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8B92452806B138009ED9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB8B92472806B138009ED9B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8B924E2806B180009ED9B2 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		FB8B925E2806B3EF009ED9B2 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FB8B92612806B52B009ED9B2 /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		FB8B92642806BEFA009ED9B2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FB8B92662806C523009ED9B2 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		FB8B92692806C9E3009ED9B2 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8B925C2806B331009ED9B2 /* Alamofire in Frameworks */,
+				FB8B92572806B317009ED9B2 /* RxRelay in Frameworks */,
+				FB8B92552806B317009ED9B2 /* RxCocoa in Frameworks */,
+				FB8B92702806CD64009ED9B2 /* Then in Frameworks */,
+				FB8B926D2806CD4D009ED9B2 /* SnapKit in Frameworks */,
+				FB8B92592806B317009ED9B2 /* RxSwift in Frameworks */,
+				FB8B92522806B2DA009ED9B2 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,60 @@
 		FB8B92382806B136009ED9B2 /* RxNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				FB8B92682806C9D9009ED9B2 /* Views */,
+				FB8B92632806BEF2009ED9B2 /* ViewModels */,
+				FB8B92602806B521009ED9B2 /* Services */,
+				FB8B925D2806B3E9009ED9B2 /* Models */,
+				FB8B924D2806B170009ED9B2 /* Controllers */,
 				FB8B92392806B136009ED9B2 /* AppDelegate.swift */,
 				FB8B923B2806B136009ED9B2 /* SceneDelegate.swift */,
-				FB8B923D2806B136009ED9B2 /* ViewController.swift */,
 				FB8B923F2806B136009ED9B2 /* Main.storyboard */,
 				FB8B92422806B138009ED9B2 /* Assets.xcassets */,
 				FB8B92442806B138009ED9B2 /* LaunchScreen.storyboard */,
 				FB8B92472806B138009ED9B2 /* Info.plist */,
 			);
 			path = RxNewsApp;
+			sourceTree = "<group>";
+		};
+		FB8B924D2806B170009ED9B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB8B924E2806B180009ED9B2 /* MainController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB8B925D2806B3E9009ED9B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB8B925E2806B3EF009ED9B2 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB8B92602806B521009ED9B2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FB8B92612806B52B009ED9B2 /* ArticleService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FB8B92632806BEF2009ED9B2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FB8B92642806BEFA009ED9B2 /* MainViewModel.swift */,
+				FB8B92662806C523009ED9B2 /* ArticleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FB8B92682806C9D9009ED9B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB8B92692806C9E3009ED9B2 /* MainCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,15 @@
 			dependencies = (
 			);
 			name = RxNewsApp;
+			packageProductDependencies = (
+				FB8B92512806B2DA009ED9B2 /* Kingfisher */,
+				FB8B92542806B317009ED9B2 /* RxCocoa */,
+				FB8B92562806B317009ED9B2 /* RxRelay */,
+				FB8B92582806B317009ED9B2 /* RxSwift */,
+				FB8B925B2806B331009ED9B2 /* Alamofire */,
+				FB8B926C2806CD4D009ED9B2 /* SnapKit */,
+				FB8B926F2806CD64009ED9B2 /* Then */,
+			);
 			productName = RxNewsApp;
 			productReference = FB8B92362806B136009ED9B2 /* RxNewsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +189,13 @@
 				Base,
 			);
 			mainGroup = FB8B922D2806B136009ED9B2;
+			packageReferences = (
+				FB8B92502806B2D9009ED9B2 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FB8B92532806B317009ED9B2 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				FB8B925A2806B331009ED9B2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FB8B926B2806CD4D009ED9B2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FB8B926E2806CD64009ED9B2 /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			productRefGroup = FB8B92372806B136009ED9B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +223,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB8B923E2806B136009ED9B2 /* ViewController.swift in Sources */,
+				FB8B92622806B52B009ED9B2 /* ArticleService.swift in Sources */,
+				FB8B925F2806B3EF009ED9B2 /* Article.swift in Sources */,
 				FB8B923A2806B136009ED9B2 /* AppDelegate.swift in Sources */,
+				FB8B924F2806B180009ED9B2 /* MainController.swift in Sources */,
 				FB8B923C2806B136009ED9B2 /* SceneDelegate.swift in Sources */,
+				FB8B92672806C523009ED9B2 /* ArticleViewModel.swift in Sources */,
+				FB8B926A2806C9E3009ED9B2 /* MainCell.swift in Sources */,
+				FB8B92652806BEFA009ED9B2 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +384,6 @@
 				INFOPLIST_FILE = RxNewsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +411,6 @@
 				INFOPLIST_FILE = RxNewsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +448,87 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB8B92502806B2D9009ED9B2 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		FB8B92532806B317009ED9B2 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		FB8B925A2806B331009ED9B2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FB8B926B2806CD4D009ED9B2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FB8B926E2806CD64009ED9B2 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB8B92512806B2DA009ED9B2 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB8B92502806B2D9009ED9B2 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FB8B92542806B317009ED9B2 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB8B92532806B317009ED9B2 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FB8B92562806B317009ED9B2 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB8B92532806B317009ED9B2 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		FB8B92582806B317009ED9B2 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB8B92532806B317009ED9B2 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FB8B925B2806B331009ED9B2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB8B925A2806B331009ED9B2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FB8B926C2806CD4D009ED9B2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB8B926B2806CD4D009ED9B2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FB8B926F2806CD64009ED9B2 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB8B926E2806CD64009ED9B2 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB8B922E2806B136009ED9B2 /* Project object */;
 }
