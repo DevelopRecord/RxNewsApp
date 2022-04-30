@@ -21,8 +21,9 @@ newsapi.org의 JSON 정보를 가져와서 뉴스 앱을 만듭니다.
 - UIKit
    
 #### 미리보기
-메인화면에서 기사의 이미지, 제목, 본문 설명을 볼 수 있습니다.
-![RxNewsApp-preview](https://user-images.githubusercontent.com/76255765/165728559-00e888ea-fa4d-4eee-8d27-52cbbdd5ada1.gif)
+메인화면에서 기사의 이미지, 제목, 본문 설명을 볼 수 있습니다.  
+  
+<img width="40%" src="https://user-images.githubusercontent.com/76255765/165728559-00e888ea-fa4d-4eee-8d27-52cbbdd5ada1.gif"/>
    
 #### 코드 간단 설명
    
